@@ -1,3 +1,5 @@
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from device.app.api.search_routes import router as search_router
 from device.app.api.sync_routes import router as sync_router
 

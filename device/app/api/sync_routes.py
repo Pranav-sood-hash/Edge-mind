@@ -17,10 +17,9 @@ from device.app.sync.push_worker import PushWorker
 
 router = APIRouter(prefix="/api", tags=["sync_and_governance"])
 
-# Singletons for device node
+from device.app.api.search_routes import _store
 _ledger = SQLiteLedger()
 _link_state = LinkState(ledger=_ledger)
-_store = QdrantEdgeMemoryStore()
 _cloud_client = CloudClient(link_state=_link_state)
 _policy_engine = PolicyEngine()
 _conflict_engine = ConflictEngine()
