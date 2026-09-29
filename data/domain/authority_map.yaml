@@ -1,0 +1,12 @@
+# Canonical Authority Hierarchy Mapping
+# Level 3: Official Bulletins & OEM Signed Directives (highest dominance)
+# Level 2: Baseline Technical Manuals & Verified Engineering Procedures
+# Level 1: Historical Incident Logs & Empirical Field Fixes
+# Level 0: Raw Technician Notes & Unprocessed Sensor Stream
+authority_map:
+  bulletin: 3
+  manual: 2
+  incident: 1
+  fix: 1
+  note: 0
+  sensor: 0

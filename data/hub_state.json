@@ -1,0 +1,57 @@
+{
+  "devices": [
+    {
+      "device_id": "Device A",
+      "site_id": "Plant North",
+      "role": "Slurry Pump Monitor",
+      "model": "P-204 Monitor",
+      "link_state": "synced",
+      "heartbeat_at": "2026-09-29T03:56:20.241744+00:00",
+      "local_chunks": 14820,
+      "queued_sync": 0
+    },
+    {
+      "device_id": "Device B",
+      "site_id": "Plant South",
+      "role": "Thermal Array Node",
+      "model": "Gas Turbine T-34",
+      "link_state": "air-gapped",
+      "heartbeat_at": "2026-09-29T03:56:20.241744+00:00",
+      "local_chunks": 12110,
+      "queued_sync": 18
+    },
+    {
+      "device_id": "Device C",
+      "site_id": "Refinery Unit 2",
+      "role": "Main Valve Feed",
+      "model": "Hydraulic Actuators",
+      "link_state": "synced",
+      "heartbeat_at": "2026-09-29T03:56:20.241744+00:00",
+      "local_chunks": 9480,
+      "queued_sync": 2
+    },
+    {
+      "device_id": "Device D",
+      "site_id": "Drone Rig 03",
+      "role": "Hull Ultrasonic 02",
+      "model": "Autonomous Crawlers",
+      "link_state": "handshake",
+      "heartbeat_at": "2026-09-29T03:56:20.241744+00:00",
+      "local_chunks": 6120,
+      "queued_sync": 5
+    },
+    {
+      "device_id": "Device E",
+      "site_id": "Subsea Manifold",
+      "role": "Sub-ambient Array",
+      "model": "Flow Valves & Risers",
+      "link_state": "air-gapped",
+      "heartbeat_at": "2026-09-29T03:56:20.241744+00:00",
+      "local_chunks": 16400,
+      "queued_sync": 24
+    }
+  ],
+  "inbox_items": {},
+  "knowledge_items": {},
+  "conflicts": []
+}

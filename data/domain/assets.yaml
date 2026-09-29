@@ -1,0 +1,75 @@
+assets:
+  - id: "P-204"
+    name: "Slurry Pump P-204"
+    type: "Centrifugal Slurry Pump"
+    site: "Plant North"
+    criticality: "High"
+    specs:
+      rated_rpm: 1750
+      coupling_torque_nm: 145
+      bearing_type: "SKF-7314"
+      max_vibration_mms: 4.5
+
+  - id: "C-112"
+    name: "Compressor C-112"
+    type: "Reciprocating Gas Compressor"
+    site: "Plant South"
+    criticality: "Critical"
+    specs:
+      suction_pressure_bar: 12.5
+      discharge_pressure_bar: 85.0
+      lube_oil_type: "ISO VG 220"
+
+  - id: "R-07"
+    name: "Inspection Robot R-07"
+    type: "Autonomous Tank Crawler"
+    site: "Plant North"
+    criticality: "Medium"
+    specs:
+      ultrasonic_probe: "Dual-Crystal 5MHz"
+      crawler_speed_m_min: 1.2
+
+  - id: "V-33"
+    name: "Control Valve V-33"
+    type: "High-Pressure Globe Valve"
+    site: "Plant North"
+    criticality: "High"
+    specs:
+      actuator_signal_ma: 4-20
+      seat_leakage_class: "Class VI"
+
+  - id: "T-34"
+    name: "Gas Turbine T-34"
+    type: "Heavy Industrial Gas Turbine"
+    site: "Plant South"
+    criticality: "Critical"
+    specs:
+      inlet_temp_c: 1050
+      exhaust_temp_c: 540
+      vibration_order_limit: "1.8x"
+
+  - id: "M-50"
+    name: "Subsea Manifold M-50"
+    type: "Deepwater Production Manifold"
+    site: "Plant South"
+    criticality: "High"
+    specs:
+      hydrostatic_test_bar: 345
+      valve_count: 14
+
+  - id: "H-03"
+    name: "Inspection Drone H-03"
+    type: "Hull Ultrasonic Crawler"
+    site: "Plant North"
+    criticality: "Medium"
+    specs:
+      payload_limit_kg: 8.5
+
+  - id: "P-101"
+    name: "Boiler Feed Pump P-101"
+    type: "Multistage Centrifugal Pump"
+    site: "Plant North"
+    criticality: "High"
+    specs:
+      stages: 8
+      nominal_flow_m3_h: 220

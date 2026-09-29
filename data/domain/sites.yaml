@@ -1,0 +1,21 @@
+sites:
+  - id: "Plant North"
+    name: "North Pit Offshore Slurry Extraction Station"
+    code: "PLANT-N-01"
+    lat: 58.1245
+    lon: 3.2189
+    primary_device: "Device A"
+    technician: "Asha K. (TK-904)"
+
+  - id: "Plant South"
+    name: "South Compressor Hub & Gas Processing"
+    code: "PLANT-S-02"
+    lat: 57.8841
+    lon: 3.5512
+    primary_device: "Device B"
+    technician: "Ravi M. (TK-812)"
+
+  - id: "Fleet Central"
+    name: "Central Reliability Engineering Console"
+    code: "CENTRAL-00"
+    primary_engineer: "Meera S."

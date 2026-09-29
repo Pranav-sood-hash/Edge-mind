@@ -9,3 +9,8 @@ data/shards/
 data/hub_qdrant/
 data/test_*
 data/link_state.json
+node_modules/
+.next/
+*.tsbuildinfo
+.DS_Store
+
